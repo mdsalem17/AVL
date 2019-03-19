@@ -18,5 +18,7 @@ int main() {
     a.inserer(nombre(alea)) ;
   }
 
+  a.afficher() ;
+
   return 0 ;
 }

@@ -12,9 +12,12 @@ solution "avl"
 		buildoptions { "-std=c++11" }
 		buildoptions { "-W -Wall -Wextra", "-pipe" }
 
-  configuration{"linux", "debug"}
+  configuration {"linux", "debug"}
     buildoptions {"-g"}
     linkoptions {"-g"}
+
+  configuration {"windows"}
+    defines {"AFFICHAGE_SIMPLE"}
 
 project "avl"
   language "c++"

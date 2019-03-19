@@ -10,8 +10,9 @@ class Arbre {
     ~Arbre() ;
 
     void inserer(int valeur) ;
+    void afficher() ;
 
   private :
 
-    Noeud* racine ;
+    Noeud* m_racine ;
 } ;
