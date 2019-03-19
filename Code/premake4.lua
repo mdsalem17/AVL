@@ -5,12 +5,19 @@ solution "avl"
     defines {"DEBUG"}
 
   configuration {"release"}
-    flags {"OptimizeSpeed"}
+		if _PREMAKE_VERSION >="5.0" then
+			optimize "speed"
+		else
+			flags { "OptimizeSpeed" }
+		end
 
   configuration {"linux"}
 		buildoptions { "-mtune=native -march=native" }
 		buildoptions { "-std=c++11" }
 		buildoptions { "-W -Wall -Wextra", "-pipe" }
+
+  configuration {"macosx"}
+		buildoptions { "-std=c++11" }
 
   configuration {"linux", "debug"}
     buildoptions {"-g"}
