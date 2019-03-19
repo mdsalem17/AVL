@@ -9,6 +9,8 @@ class Arbre {
     Arbre() ;
     ~Arbre() ;
 
+    void inserer(int valeur) ;
+
   private :
 
     Noeud* racine ;
