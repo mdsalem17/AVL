@@ -140,8 +140,8 @@ pour revenir à un déséquilibre acceptable.
 ### Complexité finale
 
 En maîtrisant le déséquilibre de l'arbre, les AVL s'assurent que dans le
-meilleur comme dans le pire des cas, la hauteur d'un AVL contenant `$n$` nœuds
-est de l'ordre de `$\log{n}$`. Les opérations d'insertion et de recherche auront
+meilleur comme dans le pire des cas, la hauteur d'un AVL contenant n nœuds
+est de l'ordre de $`\log{n}`$. Les opérations d'insertion et de recherche auront
 donc cette complexité dans le pire des cas. Pour la recherche, la complexité
 devient constante dans le meilleur cas, car la valeur cherchée peut être à la
 racine de l'arbre. Pour l'insertion, étant donné qu'elle ajoute une feuille, et
