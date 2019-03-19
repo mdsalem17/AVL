@@ -91,11 +91,11 @@ Le principe des rotation est de réarranger les nœuds selon le schéma suivant.
 
 #### Rotation gauche
 
-![rotation gauche](Sujet/rotation_gauche.svg)
+![rotation gauche](Sujet/rotation_gauche.png)
 
 #### Rotation droite
 
-![rotation droite](Sujet/rotation_droite.svg)
+![rotation droite](Sujet/rotation_droite.png)
 
 ### Cas de rééquilibrage
 
@@ -106,19 +106,19 @@ pour revenir à un déséquilibre acceptable.
 
 #### Déséquilibre à gauche de l'enfant gauche
 
-![gauche-gauche](Sujet/gauche_gauche.svg)
+![gauche-gauche](Sujet/gauche_gauche.png)
 
 #### Déséquilibre à droite de l'enfant gauche
 
-![gauche-droite](Sujet/gauche_droite.svg)
+![gauche-droite](Sujet/gauche_droite.png)
 
 #### Déséquilibre à droite de l'enfant droit
 
-![droite-droite](Sujet/droite_droite.svg)
+![droite-droite](Sujet/droite_droite.png)
 
 #### Déséquilibre à gauche de l'enfant droit
 
-![droite-gauche](Sujet/droite_gauche.svg)
+![droite-gauche](Sujet/droite_gauche.png)
 
 ### Complexité finale
 
