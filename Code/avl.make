@@ -26,9 +26,9 @@ ifeq ($(config),debug)
   DEFINES   += -DDEBUG
   INCLUDES  += 
   CPPFLAGS  += -MMD -MP $(DEFINES) $(INCLUDES)
-  CFLAGS    += $(CPPFLAGS) $(ARCH) -mtune=native -march=native -std=c++11 -W -Wall -Wextra -pipe -g
+  CFLAGS    += $(CPPFLAGS) $(ARCH) -g -mtune=native -march=native -std=c++11 -W -Wall -Wextra -pipe -g
   CXXFLAGS  += $(CFLAGS) 
-  LDFLAGS   += -s -g
+  LDFLAGS   += -g
   LIBS      += 
   RESFLAGS  += $(DEFINES) $(INCLUDES) 
   LDDEPS    += 

@@ -3,6 +3,12 @@ solution "avl"
 
   configuration {"debug"}
     defines {"DEBUG"}
+    if _PREMAKE_VERSION >="5.0" then
+      symbols "On"
+		else
+			flags { "Symbols" }
+		end
+
 
   configuration {"release"}
 		if _PREMAKE_VERSION >="5.0" then
