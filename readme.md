@@ -32,7 +32,7 @@ premake4 codeblocks
 
 pour générer un fichier projet codeblocks. Sous windows la procédure n'est pas
 testée. Il vous faudra a priori [télécharger
-premake](https://premake.github.io/download.html) et l'extraire dans le
+premake 4](https://premake.github.io/download.html) et l'extraire dans le
 répertoire du dépôt, puis lancer le script `premake.bat` pour générer un fichier
 codeblocks.
 
