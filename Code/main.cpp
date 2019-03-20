@@ -9,7 +9,7 @@ int main() {
 
 #ifndef DEBUG
   std::random_device vrai_alea ;
-  alea.seed(vrai_alea) ;
+  alea.seed(vrai_alea()) ;
 #endif
 
   std::uniform_int_distribution<int> nombre(0, 100) ;
