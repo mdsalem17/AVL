@@ -45,12 +45,12 @@ la fonction d'insertion pour vous assurer qu'au fur et à mesure des insertions,
 les hauteurs restent valides.
 
 Il vous sera aussi très utile de créer une fonction auxiliaire `hauteur_noeud`
-(`static` dans le `cpp`) qui prend en paramètre l'adresse d'un nœud, et vérifie
-si le noeud est `nullptr`. Si tel est le cas cette fonction renverra `0`, sinon
-elle renverra la hauteur stockée dans le nœud. Cette fonction vous permettra
-ainsi de gérer facilement tous les cas d'enfants manquants, car vous pourrez
-sans distinction appeler la fonction sur les deux enfants d'un nœud sans vous
-soucier de savoir s'ils existent ou non.
+qui prend en paramètre l'adresse d'un nœud, et vérifie si le noeud est
+`nullptr`. Si tel est le cas cette fonction renverra `0`, sinon elle renverra la
+hauteur stockée dans le nœud. Cette fonction vous permettra ainsi de gérer
+facilement tous les cas d'enfants manquants, car vous pourrez sans distinction
+appeler la fonction sur les deux enfants d'un nœud sans vous soucier de savoir
+s'ils existent ou non.
 
 ### Rotation
 
@@ -106,11 +106,11 @@ quelle rotation appliquée sur n'importe quel nœud.
 
 Le principe des rotation est de réarranger les nœuds selon le schéma suivant.
 
-#### Rotation gauche
+#### Rotation droite
 
 ![rotation gauche](Sujet/rotation_gauche.png)
 
-#### Rotation droite
+#### Rotation gauche
 
 ![rotation droite](Sujet/rotation_droite.png)
 
