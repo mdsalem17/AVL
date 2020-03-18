@@ -36,4 +36,4 @@ project "avl"
   language "c++"
   kind "ConsoleApp"
   targetdir "bin"
-  files {"noeud.hpp", "noeud.cpp", "arbre.hpp", "arbre.cpp", "main.cpp"}
+  files {"node.hpp", "node.cpp", "avl.hpp", "avl.cpp", "main.cpp"}

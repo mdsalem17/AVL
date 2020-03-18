@@ -1,9 +1,10 @@
-#include "arbre.hpp"
+#include "avl.hpp"
 
 #include <random>
 
 int main() {
-  Arbre a ;
+  AVL a ;
+
 
   std::mt19937 alea ;
 
@@ -14,11 +15,13 @@ int main() {
 
   std::uniform_int_distribution<int> nombre(0, 100) ;
 
-  for(int i = 0; i < 20; ++i) {
-    a.inserer(nombre(alea)) ;
+  for(int i = 0; i < 15; ++i) {
+    //a.insert(nombre(alea)) ;
+    a.insert(i) ;
   }
 
   a.afficher() ;
 
+  
   return 0 ;
 }

@@ -64,8 +64,8 @@ ifeq ($(config),release)
 endif
 
 OBJECTS := \
-	$(OBJDIR)/noeud.o \
-	$(OBJDIR)/arbre.o \
+	$(OBJDIR)/node.o \
+	$(OBJDIR)/avl.o \
 	$(OBJDIR)/main.o \
 
 RESOURCES := \
@@ -127,10 +127,10 @@ $(GCH): $(PCH)
 	$(SILENT) $(CXX) $(CXXFLAGS) -o "$@" -c "$<"
 endif
 
-$(OBJDIR)/noeud.o: noeud.cpp
+$(OBJDIR)/node.o: node.cpp
 	@echo $(notdir $<)
 	$(SILENT) $(CXX) $(CXXFLAGS) -o "$@" -c "$<"
-$(OBJDIR)/arbre.o: arbre.cpp
+$(OBJDIR)/avl.o: avl.cpp
 	@echo $(notdir $<)
 	$(SILENT) $(CXX) $(CXXFLAGS) -o "$@" -c "$<"
 $(OBJDIR)/main.o: main.cpp
